@@ -1,0 +1,6 @@
+# dsh-session-migration-fix bundle patch: one host row. Applied when a profile lists
+# this bundle; hooks sessionPersistence.generationFormat.createRestore to sanitize
+# historical session logs during migration.
+- insert:
+    - id: dsh-session-migration-fix
+      name: dsh-session-migration-fix

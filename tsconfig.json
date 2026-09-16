@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "declaration": true,
+    "declarationMap": false,
+    "sourceMap": false,
+    "outDir": "./lib",
+    "rootDir": "./src",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@deepseek-ai/cordis": ["/home/csy/Code/installer/deepseek-harness-official/vendor/cordis/lib/types/index.d.ts"]
+    }
+  },
+  "include": ["src/**/*"]
+}
