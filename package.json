@@ -1,7 +1,7 @@
 {
   "name": "dsh-session-migration-fix",
-  "version": "0.1.0",
-  "description": "DeepSeek Harness bundle plugin: fixes historical session format migration errors by stripping leaked thoughtSignature/textSignature/thinkingSignature members from tool-call and content blocks during format restoration",
+  "version": "0.2.0",
+  "description": "DeepSeek Harness bundle plugin: fixes historical session format migration errors by stripping leaked signatures and normalizing unknown v0 historical events (such as orchestrate/change) during format restoration",
   "type": "module",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

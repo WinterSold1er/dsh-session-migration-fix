@@ -12,7 +12,10 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "paths": {
-      "@deepseek-ai/cordis": ["/home/csy/Code/installer/deepseek-harness-official/vendor/cordis/lib/types/index.d.ts"]
+      "@deepseek-ai/cordis": [
+        "/home/csy/Code/installer/deepseek-harness/vendor/cordis/lib/types/index.d.ts",
+        "/home/csy/Code/installer/deepseek-harness-official/vendor/cordis/lib/types/index.d.ts"
+      ]
     }
   },
   "include": ["src/**/*"]
